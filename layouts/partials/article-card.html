@@ -1,0 +1,12 @@
+<article class="article-card">
+  <a class="article-art art-{{ .Params.art | default "blue" }}" href="{{ .RelPermalink }}" aria-label="Read {{ .Title }}">
+    <span>{{ .Params.short | default "TSE" }}</span>
+  </a>
+  <div class="article-body">
+    <div class="meta"><span class="badge">{{ index (.Params.categories | default (slice "SaaS")) 0 }}</span><span>{{ .ReadingTime }} min read</span></div>
+    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    <p>{{ .Summary | truncate 125 }}</p>
+    <div class="byline"><span class="avatar">{{ substr (.Params.author | default "E") 0 1 }}</span><span>{{ .Params.author | default "Editorial Team" }}</span><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2" }}</time></div>
+  </div>
+</article>
+

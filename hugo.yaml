@@ -1,0 +1,23 @@
+baseURL: https://thesaaseducation.com/
+locale: en-US
+title: The SaaS Education
+enableRobotsTXT: true
+enableGitInfo: false
+summaryLength: 24
+
+params:
+  description: Independent, practical education for choosing better SaaS, AI, and business software.
+  author: The SaaS Education Editorial Team
+  twitter: "@thesaasedu"
+
+taxonomies:
+  category: categories
+  tag: tags
+
+permalinks:
+  posts: /insights/:slug/
+
+outputs:
+  home:
+    - HTML
+    - RSS

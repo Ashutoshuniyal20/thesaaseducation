@@ -1,0 +1,4 @@
+{{ define "main" }}
+<section class="section"><div class="container"><span class="kicker">The SaaS Education</span><h1>{{ .Title }}</h1><div class="pick-grid">{{ range .Pages }}{{ partial "article-card.html" . }}{{ end }}</div></div></section>
+{{ end }}
+

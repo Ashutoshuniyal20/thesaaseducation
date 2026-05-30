@@ -1,0 +1,109 @@
+{{ define "main" }}
+{{ $posts := where site.RegularPages "Section" "posts" }}
+<section class="hero">
+  <div class="hero-mesh" aria-hidden="true"></div>
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <div class="eyebrow"><span></span>Independent software research</div>
+      <h1>Understand the <em>software</em> your business depends on.</h1>
+      <p class="hero-text">Clear analysis of SaaS products, software categories, and technology shifts for people making considered buying and operating decisions.</p>
+      <div class="hero-actions"><a class="button primary" href="#latest">Read the latest research</a><a class="button quiet" href="#categories">Explore software categories <span>→</span></a></div>
+      <div class="hero-proof">
+        <div><strong>11</strong><span>Software categories</span></div>
+        <div><strong>Independent</strong><span>Editorial research</span></div>
+        <div><strong>Practical</strong><span>Buying guidance</span></div>
+      </div>
+    </div>
+    <aside class="hero-infographic" aria-label="The SaaS Education software intelligence coverage map">
+      <div class="infographic-head"><span>THE SOFTWARE LANDSCAPE</span><b>EDITORIAL COVERAGE</b></div>
+      <div class="stack-map" aria-hidden="true">
+        <div class="map-ring ring-one"></div><div class="map-ring ring-two"></div>
+        <div class="map-axis axis-x"></div><div class="map-axis axis-y"></div>
+        <div class="map-core"><strong>TSE</strong><span>RESEARCH<br>DESK</span></div>
+        <div class="map-node node-ai"><i></i><strong>AI</strong><span>WORKFLOWS</span></div>
+        <div class="map-node node-ops"><i></i><strong>OPS</strong><span>SYSTEMS</span></div>
+        <div class="map-node node-growth"><i></i><strong>GROWTH</strong><span>STACKS</span></div>
+        <div class="map-node node-sec"><i></i><strong>SEC</strong><span>TRUST</span></div>
+      </div>
+      <div class="infographic-bottom"><span><i></i>11 SOFTWARE CATEGORIES</span><span>RESEARCH AND COMPARISONS</span></div>
+    </aside>
+  </div>
+  <div class="container trusted"><span>Research for people evaluating business software</span><strong>AI TOOLS</strong><strong>MARKETING</strong><strong>OPERATIONS</strong><strong>SECURITY</strong><strong>SALES</strong></div>
+</section>
+
+<section class="section compact" id="categories">
+  <div class="container">
+    <div class="section-heading"><div><span class="kicker">Software categories</span><h2>Research the tools behind modern businesses.</h2></div><a href="/categories/">View all categories <span>→</span></a></div>
+    <div class="category-grid">
+      {{ range $index, $item := slice
+        (dict "name" "AI Tools" "icon" "spark" "desc" "Evaluate practical AI software")
+        (dict "name" "CRM Software" "icon" "users" "desc" "Compare customer management tools")
+        (dict "name" "Project Management" "icon" "chart" "desc" "Choose systems for planning work")
+        (dict "name" "Marketing Software" "icon" "spark" "desc" "Understand the marketing stack")
+        (dict "name" "HR Software" "icon" "users" "desc" "Review tools for people operations")
+        (dict "name" "Finance Software" "icon" "chart" "desc" "Assess finance and spend tools")
+        (dict "name" "Cybersecurity" "icon" "shield" "desc" "Build a stronger security baseline")
+        (dict "name" "Customer Support" "icon" "users" "desc" "Compare service and support platforms")
+        (dict "name" "Productivity Tools" "icon" "doc" "desc" "Find tools for focused work")
+        (dict "name" "Sales Software" "icon" "chart" "desc" "Review tools for revenue teams")
+        (dict "name" "SEO Software" "icon" "chart" "desc" "Compare search and content tools")
+      }}
+      <a class="category-card" href="/categories/{{ .name | urlize }}/"><span class="category-icon">{{ partial "icon.html" .icon }}</span><span class="category-number">{{ printf "%02d" (add 1 $index) }}</span><strong>{{ .name }}</strong><small>{{ .desc }}</small><b>→</b></a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="section surface" id="latest">
+  <div class="container">
+    <div class="section-heading"><div><span class="kicker">Featured research</span><h2>What to know before choosing your next tool.</h2><p>Category analysis, software comparisons, and practical guidance from our editorial desk.</p></div><a href="/insights/">Browse all research <span>→</span></a></div>
+    <div class="featured-layout">
+      {{ with index $posts 0 }}
+      <article class="lead-story">
+        <a class="lead-art art-{{ .Params.art }}" href="{{ .RelPermalink }}"><span>{{ .Params.short }}</span><div class="grid-lines"></div></a>
+        <div class="lead-content"><div class="meta"><span class="badge">{{ index .Params.categories 0 }}</span><span>Featured analysis</span></div><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3><p>{{ .Summary }}</p><div class="byline"><span class="avatar">{{ substr .Params.author 0 1 }}</span><span>{{ .Params.author }}</span><time>{{ .ReadingTime }} min read</time></div></div>
+      </article>
+      {{ end }}
+      <div class="story-stack">{{ range first 2 (after 1 $posts) }}{{ partial "article-card.html" . }}{{ end }}</div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="resources">
+  <div class="container topics-wrap">
+    <div class="section-heading"><div><span class="kicker">Topics we are following</span><h2>Changes worth understanding.</h2><p>A closer look at the software categories and technology shifts affecting business decisions.</p></div></div>
+    <div class="topic-grid">
+      {{ range slice "AI agents for work" "The modern CRM stack" "Product-led growth" "Secure remote teams" "Marketing automation" "SaaS buying guides" }}
+      <a href="/tags/{{ . | urlize }}/"><span>{{ . }}</span><b>↗</b></a>{{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="section surface">
+  <div class="container">
+    <div class="section-heading"><div><span class="kicker">Editor's picks</span><h2>Useful reading for software decision makers.</h2><p>Selected for their clarity, practical value, and relevance beyond the news cycle.</p></div><span class="curated">SELECTED BY THE EDITORS</span></div>
+    <div class="pick-grid">{{ range first 3 (after 3 $posts) }}{{ partial "article-card.html" . }}{{ end }}</div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container insights-grid">
+    <div>
+      <div class="section-heading"><div><span class="kicker">Latest research</span><h2>New analysis and practical guides.</h2></div></div>
+      <div class="latest-list">{{ range first 4 (after 6 $posts) }}{{ partial "article-card.html" . }}{{ end }}</div>
+    </div>
+    <aside class="newsletter" id="newsletter">
+      <div class="newsletter-top"><span>TSE</span><i>EDITORIAL NEWSLETTER</i></div>
+      <span class="kicker">The editorial newsletter</span>
+      <h2>A clear view of business software.</h2>
+      <p>New research, category guides, and important software developments in one concise email.</p>
+      <form><label class="sr-only" for="email">Work email</label><input id="email" type="email" placeholder="Work email address" required><button type="submit">Subscribe</button></form>
+      <small>Occasional updates. Unsubscribe anytime.</small>
+    </aside>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="container about-grid"><div><span class="kicker">About The SaaS Education</span><div class="about-stamp">TSE<span>INDEPENDENT<br>EDITORIAL</span></div></div><div><h2>Software research for better business decisions.</h2><p>The SaaS Education is an independent publication for professionals evaluating the software their organizations rely on. We explain product categories, compare approaches, and follow technology trends with a practical editorial lens.</p><div class="about-links"><a href="/about/">Read about our editorial approach <span>→</span></a><small>Independent analysis. No pay-to-play rankings.</small></div></div></div>
+</section>
+{{ end }}

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="{{ site.Language.Locale }}" class="scroll-smooth">
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+    {{ partial "header.html" . }}
+    <main id="content">{{ block "main" . }}{{ end }}</main>
+    {{ partial "footer.html" . }}
+    <script>
+      (() => {
+        const root = document.documentElement;
+        const saved = localStorage.getItem("theme");
+        if (saved === "dark" || (!saved && matchMedia("(prefers-color-scheme: dark)").matches)) root.classList.add("dark");
+        document.querySelector("[data-theme-toggle]")?.addEventListener("click", () => {
+          root.classList.toggle("dark");
+          localStorage.setItem("theme", root.classList.contains("dark") ? "dark" : "light");
+        });
+      })();
+    </script>
+  </body>
+</html>

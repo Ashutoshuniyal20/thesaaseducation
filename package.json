@@ -1,0 +1,15 @@
+{
+  "name": "the-saas-education",
+  "private": true,
+  "scripts": {
+    "dev:css": "tailwindcss -i ./assets/css/tailwind.css -o ./static/css/site.css --watch",
+    "build:css": "tailwindcss -i ./assets/css/tailwind.css -o ./static/css/site.css --minify",
+    "dev": "hugo server --disableFastRender",
+    "build": "npm run build:css && hugo --minify"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.0",
+    "tailwindcss": "^4.1.0"
+  }
+}
+

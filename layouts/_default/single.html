@@ -1,0 +1,11 @@
+{{ define "main" }}
+<article class="container prose-wrap">
+  <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>→</span><a href="/insights/">Insights</a><span>→</span><span>{{ .Title }}</span></nav>
+  <span class="badge">{{ index (.Params.categories | default (slice "SaaS")) 0 }}</span>
+  <h1>{{ .Title }}</h1>
+  <p class="article-intro">{{ .Description }}</p>
+  <div class="byline"><span class="avatar">{{ substr (.Params.author | default "E") 0 1 }}</span><span>{{ .Params.author }}</span><time>{{ .Date.Format "January 2, 2006" }} · {{ .ReadingTime }} min read</time></div>
+  <div class="prose">{{ .Content }}</div>
+</article>
+{{ end }}
+
