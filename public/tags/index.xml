@@ -1,1 +1,59 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on The SaaS Education</title><link>https://thesaaseducation.com/tags/</link><description>Recent content in Tags on The SaaS Education</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 29 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://thesaaseducation.com/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>SaaS Buying Guides</title><link>https://thesaaseducation.com/tags/saas-buying-guides/</link><pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate><guid>https://thesaaseducation.com/tags/saas-buying-guides/</guid><description/></item><item><title>AI Agents for Work</title><link>https://thesaaseducation.com/tags/ai-agents-for-work/</link><pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate><guid>https://thesaaseducation.com/tags/ai-agents-for-work/</guid><description/></item><item><title>The Modern CRM Stack</title><link>https://thesaaseducation.com/tags/the-modern-crm-stack/</link><pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate><guid>https://thesaaseducation.com/tags/the-modern-crm-stack/</guid><description/></item><item><title>Product-Led Growth</title><link>https://thesaaseducation.com/tags/product-led-growth/</link><pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate><guid>https://thesaaseducation.com/tags/product-led-growth/</guid><description/></item><item><title>Marketing Automation</title><link>https://thesaaseducation.com/tags/marketing-automation/</link><pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate><guid>https://thesaaseducation.com/tags/marketing-automation/</guid><description/></item><item><title>Secure Remote Teams</title><link>https://thesaaseducation.com/tags/secure-remote-teams/</link><pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate><guid>https://thesaaseducation.com/tags/secure-remote-teams/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Tags on The SaaS Education</title>
+		<link>http://localhost:1313/tags/</link>
+		<description>Recent content in Tags on The SaaS Education</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 29 May 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>SaaS Buying Guides</title>
+				<link>http://localhost:1313/tags/saas-buying-guides/</link>
+				<pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/saas-buying-guides/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>AI Agents for Work</title>
+				<link>http://localhost:1313/tags/ai-agents-for-work/</link>
+				<pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/ai-agents-for-work/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>The Modern CRM Stack</title>
+				<link>http://localhost:1313/tags/the-modern-crm-stack/</link>
+				<pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/the-modern-crm-stack/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Product-Led Growth</title>
+				<link>http://localhost:1313/tags/product-led-growth/</link>
+				<pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/product-led-growth/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Marketing Automation</title>
+				<link>http://localhost:1313/tags/marketing-automation/</link>
+				<pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/marketing-automation/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Secure Remote Teams</title>
+				<link>http://localhost:1313/tags/secure-remote-teams/</link>
+				<pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/secure-remote-teams/</guid>
+				<description></description>
+			</item>
+	</channel>
+</rss>

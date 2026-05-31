@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>HR Software on The SaaS Education</title><link>https://thesaaseducation.com/categories/hr-software/</link><description>Recent content in HR Software on The SaaS Education</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Wed, 13 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://thesaaseducation.com/categories/hr-software/index.xml" rel="self" type="application/rss+xml"/><item><title>Five Signs Your HR Platform Has Become a Bottleneck</title><link>https://thesaaseducation.com/insights/five-signs-your-hr-platform-has-become-a-bottleneck/</link><pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate><guid>https://thesaaseducation.com/insights/five-signs-your-hr-platform-has-become-a-bottleneck/</guid><description>&lt;p&gt;An HR system should make routine work disappear into the background. When every change needs a workaround, the software is shaping the team in the wrong direction.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>HR Software on The SaaS Education</title>
+		<link>http://localhost:1313/categories/hr-software/</link>
+		<description>Recent content in HR Software on The SaaS Education</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 13 May 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/categories/hr-software/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Five Signs Your HR Platform Has Become a Bottleneck</title>
+				<link>http://localhost:1313/insights/five-signs-your-hr-platform-has-become-a-bottleneck/</link>
+				<pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/insights/five-signs-your-hr-platform-has-become-a-bottleneck/</guid>
+				<description>&lt;p&gt;An HR system should make routine work disappear into the background. When every change needs a workaround, the software is shaping the team in the wrong direction.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

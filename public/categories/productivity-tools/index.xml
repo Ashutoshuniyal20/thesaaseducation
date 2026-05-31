@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Productivity Tools on The SaaS Education</title><link>https://thesaaseducation.com/categories/productivity-tools/</link><description>Recent content in Productivity Tools on The SaaS Education</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Mon, 04 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://thesaaseducation.com/categories/productivity-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>A 30-Minute Audit for a Calmer Productivity Stack</title><link>https://thesaaseducation.com/insights/a-30-minute-audit-for-a-calmer-productivity-stack/</link><pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate><guid>https://thesaaseducation.com/insights/a-30-minute-audit-for-a-calmer-productivity-stack/</guid><description>&lt;p&gt;Software clutter creates invisible work. A short quarterly audit can reveal overlapping tools, unclear ownership, and habits worth simplifying.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Productivity Tools on The SaaS Education</title>
+		<link>http://localhost:1313/categories/productivity-tools/</link>
+		<description>Recent content in Productivity Tools on The SaaS Education</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 04 May 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/categories/productivity-tools/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>A 30-Minute Audit for a Calmer Productivity Stack</title>
+				<link>http://localhost:1313/insights/a-30-minute-audit-for-a-calmer-productivity-stack/</link>
+				<pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/insights/a-30-minute-audit-for-a-calmer-productivity-stack/</guid>
+				<description>&lt;p&gt;Software clutter creates invisible work. A short quarterly audit can reveal overlapping tools, unclear ownership, and habits worth simplifying.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

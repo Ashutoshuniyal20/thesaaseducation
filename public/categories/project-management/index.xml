@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Project Management on The SaaS Education</title><link>https://thesaaseducation.com/categories/project-management/</link><description>Recent content in Project Management on The SaaS Education</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 22 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://thesaaseducation.com/categories/project-management/index.xml" rel="self" type="application/rss+xml"/><item><title>The Lean Project Management Stack for Growing Teams</title><link>https://thesaaseducation.com/insights/the-lean-project-management-stack-for-growing-teams/</link><pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate><guid>https://thesaaseducation.com/insights/the-lean-project-management-stack-for-growing-teams/</guid><description>&lt;p&gt;Growing teams do not need more project tools. They need a clear home for commitments, decisions, and the work currently in motion.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Project Management on The SaaS Education</title>
+		<link>http://localhost:1313/categories/project-management/</link>
+		<description>Recent content in Project Management on The SaaS Education</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 22 May 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/categories/project-management/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>The Lean Project Management Stack for Growing Teams</title>
+				<link>http://localhost:1313/insights/the-lean-project-management-stack-for-growing-teams/</link>
+				<pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/insights/the-lean-project-management-stack-for-growing-teams/</guid>
+				<description>&lt;p&gt;Growing teams do not need more project tools. They need a clear home for commitments, decisions, and the work currently in motion.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

@@ -1,1 +1,94 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on The SaaS Education</title><link>https://thesaaseducation.com/categories/</link><description>Recent content in Categories on The SaaS Education</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 29 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://thesaaseducation.com/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>SEO Software</title><link>https://thesaaseducation.com/categories/seo-software/</link><pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate><guid>https://thesaaseducation.com/categories/seo-software/</guid><description/></item><item><title>AI Tools</title><link>https://thesaaseducation.com/categories/ai-tools/</link><pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate><guid>https://thesaaseducation.com/categories/ai-tools/</guid><description/></item><item><title>CRM Software</title><link>https://thesaaseducation.com/categories/crm-software/</link><pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate><guid>https://thesaaseducation.com/categories/crm-software/</guid><description/></item><item><title>Project Management</title><link>https://thesaaseducation.com/categories/project-management/</link><pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate><guid>https://thesaaseducation.com/categories/project-management/</guid><description/></item><item><title>Marketing Software</title><link>https://thesaaseducation.com/categories/marketing-software/</link><pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate><guid>https://thesaaseducation.com/categories/marketing-software/</guid><description/></item><item><title>Cybersecurity</title><link>https://thesaaseducation.com/categories/cybersecurity/</link><pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate><guid>https://thesaaseducation.com/categories/cybersecurity/</guid><description/></item><item><title>HR Software</title><link>https://thesaaseducation.com/categories/hr-software/</link><pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate><guid>https://thesaaseducation.com/categories/hr-software/</guid><description/></item><item><title>Finance Software</title><link>https://thesaaseducation.com/categories/finance-software/</link><pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate><guid>https://thesaaseducation.com/categories/finance-software/</guid><description/></item><item><title>Customer Support</title><link>https://thesaaseducation.com/categories/customer-support/</link><pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate><guid>https://thesaaseducation.com/categories/customer-support/</guid><description/></item><item><title>Productivity Tools</title><link>https://thesaaseducation.com/categories/productivity-tools/</link><pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate><guid>https://thesaaseducation.com/categories/productivity-tools/</guid><description/></item><item><title>Sales Software</title><link>https://thesaaseducation.com/categories/sales-software/</link><pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate><guid>https://thesaaseducation.com/categories/sales-software/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Categories on The SaaS Education</title>
+		<link>http://localhost:1313/categories/</link>
+		<description>Recent content in Categories on The SaaS Education</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 29 May 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>SEO Software</title>
+				<link>http://localhost:1313/categories/seo-software/</link>
+				<pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/categories/seo-software/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>AI Tools</title>
+				<link>http://localhost:1313/categories/ai-tools/</link>
+				<pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/categories/ai-tools/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>CRM Software</title>
+				<link>http://localhost:1313/categories/crm-software/</link>
+				<pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/categories/crm-software/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Project Management</title>
+				<link>http://localhost:1313/categories/project-management/</link>
+				<pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/categories/project-management/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Marketing Software</title>
+				<link>http://localhost:1313/categories/marketing-software/</link>
+				<pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/categories/marketing-software/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Cybersecurity</title>
+				<link>http://localhost:1313/categories/cybersecurity/</link>
+				<pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/categories/cybersecurity/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>HR Software</title>
+				<link>http://localhost:1313/categories/hr-software/</link>
+				<pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/categories/hr-software/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Finance Software</title>
+				<link>http://localhost:1313/categories/finance-software/</link>
+				<pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/categories/finance-software/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Customer Support</title>
+				<link>http://localhost:1313/categories/customer-support/</link>
+				<pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/categories/customer-support/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Productivity Tools</title>
+				<link>http://localhost:1313/categories/productivity-tools/</link>
+				<pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/categories/productivity-tools/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Sales Software</title>
+				<link>http://localhost:1313/categories/sales-software/</link>
+				<pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/categories/sales-software/</guid>
+				<description></description>
+			</item>
+	</channel>
+</rss>

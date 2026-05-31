@@ -1,1 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Modern CRM Stack on The SaaS Education</title><link>https://thesaaseducation.com/tags/the-modern-crm-stack/</link><description>Recent content in The Modern CRM Stack on The SaaS Education</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Mon, 25 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://thesaaseducation.com/tags/the-modern-crm-stack/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Choose a CRM Your Team Will Actually Use</title><link>https://thesaaseducation.com/insights/how-to-choose-a-crm-your-team-will-actually-use/</link><pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate><guid>https://thesaaseducation.com/insights/how-to-choose-a-crm-your-team-will-actually-use/</guid><description>&lt;p&gt;A CRM succeeds when it makes useful work easier. Start with the workflows your team repeats every day, then evaluate software around those moments.&lt;/p&gt;</description></item><item><title>Sales Intelligence Is Useful Only When It Changes the Next Action</title><link>https://thesaaseducation.com/insights/sales-intelligence-is-useful-only-when-it-changes-the-next-action/</link><pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate><guid>https://thesaaseducation.com/insights/sales-intelligence-is-useful-only-when-it-changes-the-next-action/</guid><description>&lt;p&gt;More sales data is not automatically more useful. The best intelligence tools turn signals into clear, timely next steps for the people doing the work.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>The Modern CRM Stack on The SaaS Education</title>
+		<link>http://localhost:1313/tags/the-modern-crm-stack/</link>
+		<description>Recent content in The Modern CRM Stack on The SaaS Education</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 25 May 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/the-modern-crm-stack/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>How to Choose a CRM Your Team Will Actually Use</title>
+				<link>http://localhost:1313/insights/how-to-choose-a-crm-your-team-will-actually-use/</link>
+				<pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/insights/how-to-choose-a-crm-your-team-will-actually-use/</guid>
+				<description>&lt;p&gt;A CRM succeeds when it makes useful work easier. Start with the workflows your team repeats every day, then evaluate software around those moments.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Sales Intelligence Is Useful Only When It Changes the Next Action</title>
+				<link>http://localhost:1313/insights/sales-intelligence-is-useful-only-when-it-changes-the-next-action/</link>
+				<pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/insights/sales-intelligence-is-useful-only-when-it-changes-the-next-action/</guid>
+				<description>&lt;p&gt;More sales data is not automatically more useful. The best intelligence tools turn signals into clear, timely next steps for the people doing the work.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
