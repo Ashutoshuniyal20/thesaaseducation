@@ -1,31 +1,31 @@
 name: Deploy Hugo to Hostinger
 
 on:
-push:
-branches:
-- main
+  push:
+    branches:
+      - main
 
 jobs:
-deploy:
-runs-on: self-hosted
+  deploy:
+    runs-on: self-hosted
 
-steps:
-  - name: Checkout
-    uses: actions/checkout@v4
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
 
-  - name: Verify Hugo
-    run: hugo version
+      - name: Verify Hugo
+        run: hugo version
 
-  - name: Build Site
-    run: hugo
+      - name: Build Site
+        run: hugo
 
-  - name: Deploy via FTPS
-    uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-    with:
-      server: ${{ secrets.FTP_SERVER }}
-      username: ${{ secrets.FTP_USERNAME }}
-      password: ${{ secrets.FTP_PASSWORD }}
-      protocol: ftps
-      port: 21
-      local-dir: ./public/
-      server-dir: /public_html/
+      - name: Deploy via FTPS
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
+          port: 21
+          local-dir: ./public/
+          server-dir: /public_html/
