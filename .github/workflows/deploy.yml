@@ -19,6 +19,14 @@ jobs:
       - name: Build Site
         run: hugo
 
+      - name: Verify generated homepage
+        run: |
+          echo Checking generated homepage...
+          findstr /C:"Test Deploy Success" public\index.html
+          echo.
+          echo Current Commit:
+          git rev-parse HEAD
+
       - name: Deploy via FTPS
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
