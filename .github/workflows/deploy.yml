@@ -21,10 +21,9 @@ jobs:
 
       - name: Verify generated homepage
         run: |
-          echo Checking generated homepage...
+          Write-Host "Checking generated homepage..."
           findstr /C:"Test Deploy Success" public\index.html
-          echo.
-          echo Current Commit:
+          Write-Host "Current Commit:"
           git rev-parse HEAD
 
       - name: Deploy via FTPS
